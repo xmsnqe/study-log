@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 int main(){
  int arr1[] = {4,5,7,2,54,65,456,345,234,2};
 int len = sizeof(arr1) / sizeof(arr1[0]);
 int term = 0;
-// 冒泡排序
     for(int i = 0; i < len-1; i++){
         for(int j = 0; j < len - i -1;j++){
             if(arr1[j] < arr1[j+1]){
@@ -22,12 +20,6 @@ printf("排序后的数组为：");
     for(int i = 0; i < len; i++){
         printf("%d ", arr1[i]);
     }
-
-
-
-
-
-
 
     return 0;
 }
