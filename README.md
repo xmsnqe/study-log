@@ -9,7 +9,7 @@
 - [x]   3. 插入排序
 - [x]   4. 快速排序
 - [x]   5. 归并排序
-- [ ]   6. 堆排序
+- [x]   6. 堆排序
 - [ ]   7. 桶排序
 - [ ]   8. 计数排序
 - [ ]   9. 基数排序
@@ -18,3 +18,5 @@
 - ***[排序算法1](https://www.cnblogs.com/onepixel/p/7674659.html)***
 
 - ***[排序算法2](https://github.com/AllAlgorithms/c)***
+
+- ***[排序算法3](https://www.hello-algo.com/chapter_sorting/sorting_algorithm/)***
