@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/* 堆排序
+    时间复杂度：O(nlogn)
+    空间复杂度：O(1)
+*/
+
+
 void heapify(int arr[], int n, int i)
 {
     int largest = i; 
