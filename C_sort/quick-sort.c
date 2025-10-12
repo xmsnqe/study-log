@@ -44,7 +44,7 @@ void quickSort(int arr[], int low, int high) {
     }
 }
 
-// 打印数组
+// 输出数组
 void printArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
