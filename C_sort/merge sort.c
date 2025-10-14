@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 合并两个有序子数组
+// 合并两个有序子数组(归并排序)
 /*
 归并排序的基本思想是：先递归地将数组拆分成两半，然后再合并两个有序数组。
 时间复杂度：O(nlogn)
@@ -70,7 +70,6 @@ void printArray(int arr[], int size) {
     printf("\n");
 }
 
-// 测试主函数
 int main() {
     int arr[] = {12, 11, 13, 5, 6, 7, 9, 3, 1};
     int size = sizeof(arr) / sizeof(arr[0]);
