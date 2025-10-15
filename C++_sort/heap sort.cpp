@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+/*  堆排序  */
 void heapify(int arr[], int n, int i)
 {
     int largest = i; 
