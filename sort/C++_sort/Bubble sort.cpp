@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// Bubble sort algorithm
+// Time complexity: O(n^2)
+// Space complexity: O(1)
 int main(){
     int arr[5] = {1, 2, 3, 4, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
