@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+
+
+/**
+ * 快速排序
+ * 时间复杂度：O(nlogn)
+ * 空间复杂度：O(logn)
+ */
 void swap(int* a, int* b) {
     int temp = *a;
     *a = *b;
