@@ -46,8 +46,8 @@ ListNode *access(ListNode *head, int index){
     }
     return head;
 }
-//ListNode *不建议改为void*，因为void*无法确定指针所指的类型，无法调用其成员函数
-//必须强制类型转换为ListNode*才能调用其成员函数
+/*ListNode *不建议改为void*，因为void*无法确定指针所指的类型，无法调用其成员函数
+必须强制类型转换为ListNode*才能调用其成员函数*/
 
 
 int find(ListNode *head, int target){
