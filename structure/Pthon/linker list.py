@@ -11,9 +11,7 @@ class ListNode:
         n0.next = p
 
     def delete(n0: ListNode) -> ListNode:
-        """删除链表的节点 n0"""
-        n1 = n0.next
-        n0.next = n1.next
+        """删除链表节点 n0的后一个节点"""
         if not n0.next:
             return
         p = n0.next

@@ -21,7 +21,7 @@ class LinkedListStack {
             while (node != nullptr) {
                 ListNode *tmp = node;
                 node = node->next;
-                delete tmp;
+                delete tmp; //用 new 分配的内存必须用 delete 释放。  如果用C,malloc() 分配的内存必须用 free() 释放，但 free() 仅释放内存块，不会调用析构函数。
             }
         }
     public:
